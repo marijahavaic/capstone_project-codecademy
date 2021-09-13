@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #52514d;
+  --secondary-color: #c7bfb3;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   display: flex;
@@ -14,4 +19,50 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+.header {
+  width: 100%;
+  height: 64px;
+  padding: 0 24px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16pxpx;
+}
+
+.logo {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.logo_bold {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+span {
+  color: gray;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+li {
+  padding-left: 16px;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #var(var(--primary-color));
 }
