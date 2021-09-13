@@ -12,11 +12,11 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--primary-color);;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   margin: 0;
 }
 
@@ -25,6 +25,7 @@ body {
   width: 100%;
   height: 64px;
   padding: 0 24px;
+  position: relative;
   top: 0;
   display: flex;
   justify-content: space-between;
@@ -41,7 +42,6 @@ body {
 
 .logo_bold {
   font-weight: bold;
-  color: var(--primary-color);
 }
 
 span {
@@ -70,7 +70,7 @@ a {
 /* Main section */
 
 
-/* Banner */
+/* Banner section */
 .banner {
   width: 100%;
   background-color: var(--secondary-color);
@@ -96,12 +96,10 @@ a {
 }
 
 .banner-text h1 {
-  color: var(--primary-color);
   font-weight: 900;
 }
 
 .banner-text p {
-  color: var(--primary-color);
   font-weight: 500;
   font-size: 18px;
 }
@@ -113,4 +111,74 @@ a {
   font-weight: 400;
   font-size: 14px;
   padding: 8px;
+}
+
+/* Info section */
+
+.information {
+  display: flex;
+  margin: 32px 0 32px 24px;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.info-main {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.info-main img {
+  width: 100%;
+}
+
+.info-main p {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.info-main small {
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.info-list {
+  width: 40%;
+  padding-left: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.info-list h3 {
+  font-weight: 400;
+}
+
+.info-list p {
+  font-weight: 300;
+  font-size: 12px;
+  text-align: left;
+}
+
+.info-list a {
+  color: #1eb0f3;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.info img {
+  width: 35%;
+  margin: 16px;
+}
+
+.info.active {
+  background-color: var(--secondary-color);
 }
