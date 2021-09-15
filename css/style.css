@@ -238,3 +238,43 @@ a {
   font-weight: 300;
   color: gray;
 }
+
+/* Thesis section */
+
+.thesis-exhibit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 24px;
+}
+
+.thesis-container {
+  display: flex;
+  align-items: center;
+}
+
+.thesis-main {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.thesis-main video {
+  width: 100%;
+}
+
+.thesis-list {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.thesis {
+  display: flex;
+  width: 40%;
+}
