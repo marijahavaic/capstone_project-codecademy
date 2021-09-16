@@ -249,9 +249,15 @@ a {
   margin-left: 24px;
 }
 
+.thesis-exhibit h2 {
+  margin: 32px 0;
+}
+
 .thesis-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: flex-start;
 }
 
 .thesis-main {
@@ -266,15 +272,36 @@ a {
   width: 100%;
 }
 
+.thesis-main p {
+  font-weight: 300;
+}
+
 .thesis-list {
   width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  margin-left: 24px;
 }
 
 .thesis {
   display: flex;
-  width: 40%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.thesis img {
+  width: 45%;
+  margin: 16px;
+}
+
+.thesis-text {
+  text-align: left;
+  align-items: center;
+}
+
+.thesis-text p {
+  font-weight: 300;
 }
