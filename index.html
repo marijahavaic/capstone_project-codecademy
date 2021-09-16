@@ -9,14 +9,48 @@
 </head>
 <body>
     <div class="header">
-        <p class="logo"><img src="./resouces/images/ic-logo.svg" alt="logo"> <span class="logo_bold">Colmar </span><span>Academy</span></p>
+        <p class="logo mobile-hidden"><img src="./resouces/images/ic-logo.svg" alt="logo"> <span class="logo_bold">Colmar </span><span>Academy</span></p>
         <ul>
-            <li><a href="#">On campus</a></li>
-            <li><a href="#">Online</a></li>
-            <li><a href="#">Our companies</a></li>
-            <li><a href="#">Sign in</a></li>
+            <li>
+                <a href="#">
+                    <p class="mobile-hidden">On campus</p>
+                    <picture>
+                        <source media="(min-width: 600px)" srcset="ic-logo.svg">
+                        <img src="/resouces/images/ic-logo.svg" alt="">
+                    </picture>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p class="mobile-hidden">Online</p>
+                    <picture>
+                        <source srcset="ic-on-campus.svg" media="(min-width: 600px)">
+                        <img src="./resouces/images/ic-on-campus.svg" alt="">
+                    </picture>
+                         
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p class="mobile-hidden">Our companies</p>
+                    <picture>
+                        <source srcset="ic-online.svg" media="(min-width: 600px)">
+                        <img src="./resouces/images/ic-online.svg" alt="">
+                    </picture>   
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p class="mobile-hidden">Sign in</p>
+                    <picture>
+                        <source srcset="ic-login.svg" media="(min-width: 600px)">
+                        <img src="./resouces/images/ic-login.svg" alt="">
+                    </picture>
+                </a>
+            </li>
         </ul>
     </div>
+  
 
     <div class="main">
         <div class="banner">
@@ -127,7 +161,7 @@
                     </div>
                 </div>
                 <div class="thesis-list">
-                    <div class="thesis">
+                    <div class="thesis active">
                         <img src="./resouces/images/thesis-fisma.jpg" alt="fisma">
                         <div class="thesis-text">
                             <h3>Fisma: Design and Prototype</h3>
