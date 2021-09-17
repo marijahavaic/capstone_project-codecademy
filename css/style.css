@@ -400,7 +400,7 @@ a {
     padding: 0 16px 64px;
   }
 
-  .info-text:last-child {
+  #guest {
     padding-bottom: 0;
   }
 
