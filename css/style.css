@@ -411,4 +411,40 @@ a {
   .info-text p {
     margin: 0 0 10px 0;
   }
+
+  .learning {
+    background-color: #fff;
+    border-top: 3px solid var(--secondary-color);
+  }
+
+  .courses {
+    padding: 0;
+    margin: 0;
+  }
+
+  .course {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: auto;
+  }
+
+  .course .text {
+    background-color: var(--secondary-color);
+    width: 100%;
+    margin: 0 16px 8px 16px;
+  }
+
+  #last {
+    margin-bottom: 32px;
+  }
+
+  .course .text h3 {
+    margin: 16px auto 24px 16px;
+  }
 }
+
