@@ -338,6 +338,7 @@ a {
     background-color: #fff;
   }
 
+  /* Header */
   .header {
     width: 100%;
     height: 64px;
@@ -352,6 +353,7 @@ a {
     align-items: baseline;
   }
 
+  /* Banner */
   .main .banner {
     display: flex;
     flex-direction: column;
@@ -376,6 +378,7 @@ a {
     margin: 0 16px 0 0;
   }
 
+  /* Info */
   .info-list {
     width: 100%;
     padding:0 ;
@@ -390,7 +393,7 @@ a {
 
   .info img {
     width: 100%;
-    height: 32vh;
+    height: 35vh;
     object-fit: cover;
     padding: 0 16px 0 0;
     margin: 0;
@@ -406,15 +409,22 @@ a {
 
   .info-text h3 {
     margin: 16px 0 10px 0;
+    font-size: 23px;
   }
 
   .info-text p {
     margin: 0 0 10px 0;
+    font-size: 15px;
   }
 
+  .info-text a {
+    font-size: 15px;
+  }
+
+  /* Learning */
   .learning {
     background-color: #fff;
-    border-top: 3px solid var(--secondary-color);
+    border-top: 1px solid var(--secondary-color);
   }
 
   .courses {
@@ -445,6 +455,29 @@ a {
 
   .course .text h3 {
     margin: 16px auto 24px 16px;
+  }
+
+  .thesis-exhibit {
+    border-top: 1px solid var(--secondary-color);
+    margin: 0;
+  }
+
+  .thesis-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 24px;
+  }
+
+  .thesis-main {
+    width: 100%;
+  }
+
+  .thesis-container video {
+    width: 100%;
+    object-fit: cover;
   }
 }
 
